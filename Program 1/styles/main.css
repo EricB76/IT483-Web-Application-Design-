@@ -1,0 +1,48 @@
+h1 {text-align: center; color: blue; text-decoration: underline;}
+h2 {text-align: center; color: black; font-family: "comic sans ms";  font-style: italic;}
+p {text-align: center;}
+
+
+
+.outerbox {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.innerbox {
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 212px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.center{text-align: center;
+    list-style-position: inside;
+}
+
+.imgloc{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 25%;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
