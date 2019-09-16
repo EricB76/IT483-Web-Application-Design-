@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Style sheet definitions for web pages
+   ========================================================================== */
+
+.title{
+    color: orange;
+    text-shadow: 2px 2px 2px black; 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.50em;
+    text-indent: 30px;
+}
+
+.title2{
+    font-size: 1.25em;
+    text-indent: 30px;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+img {float: left;}
+
+a{
+    color: orange;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+color: green
+}
+
+footer{
+    font-size: .75em;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.25em;
+}
+
+h1::first-letter{
+    font-size: 2.75em;
+}
