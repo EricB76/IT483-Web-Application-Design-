@@ -2,18 +2,26 @@
    Style sheet definitions for web pages
    ========================================================================== */
 
-.title{
+#pagetitle{
     color: orange;
     text-shadow: 2px 2px 2px black; 
     font-style: italic;
     font-weight: bold;
-    font-size: 1.50em;
+    font-size: 2.0em;
     text-indent: 30px;
 }
 
-.title2{
+#head{
     font-size: 1.25em;
     text-indent: 30px;
+}
+
+#product{
+    font-size: 1.45em;
+}
+
+#guarantee{
+    font-size: 1.30em;
 }
 
 html {
