@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Style sheet definitions for web pages
+   ========================================================================== */
+
+/* Custom formatting for the h2 tag in the <head> section*/
+#pagetitle{
+    line-height: .1em;
+    font-weight: bold;
+    font-size: 2.0em;
+    text-indent: 30px;
+}
+
+/*Custom formatting for h3 tag in head section*/
+#head{
+    line-height: .1em;
+    padding-left: 98px;
+    font-size: 1.25em;
+    text-indent: 30px;
+}
+
+#product{
+    font-size: 1.45em;
+}
+
+#guarantee{
+    font-size: 1.30em;
+}
+
+html {
+    font-family: sans-serif;
+    background-image: url(/images/bats.gif); 
+    background-repeat: repeat;
+    background-attachment: center;   
+}
+
+body{
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    height: ;
+}
+
+img {
+    float: left;
+}
+
+a{
+    color: orange;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+color: green
+}
+
+footer{
+    background-image: linear-gradient( -45deg, white, orange, black);
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 5px solid black;
+    font-size: .75em;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.87em;
+}
+
+h1::first-letter{
+    font-size: 2.75em;
+}
+
+.head{
+    border-top: 5px solid black;
+    background-image: linear-gradient( 45deg, white, orange, black);
+    border-bottom: 2px solid black;
+}
