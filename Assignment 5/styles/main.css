@@ -1,0 +1,91 @@
+html {
+    font-family: sans-serif;
+    background-image: url(/images/bats.gif); 
+    background-repeat: repeat;
+    background-attachment: center;
+}
+
+body{
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.head{
+    border-top: 5px solid black;
+    background-image: linear-gradient( 45deg, white, orange, black);
+    border-bottom: 2px solid black;
+    height: 90px;
+    z-index: 1;
+}
+
+.imgspace{
+    float: left;
+    width: 90px;
+}
+
+#pumpkin{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.textspace{
+    padding-left: 90px;
+    text-align: left;
+}
+
+#halloween{
+    line-height: .1em;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+#goblin{
+    padding-left: 10px;
+    line-height: .1em;
+    font-size: 1.25em;
+}
+
+.navcolumn{
+    width: 160px;
+}
+
+a{
+    color: orange;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+color: green
+}
+
+.maincolumn{
+    text-align: left;
+    padding-left: 160px;
+}
+
+#h3cat{
+    color: orange;
+    text-decoration: underline;
+}
+
+h1::first-letter{
+    font-size: 2.75em;
+}
+
+.footer{
+    background-image: linear-gradient( -45deg, white, orange, black);
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 5px solid black;
+    font-size: .75em;
+    text-align: center;
+    z-index: 2;
+}
