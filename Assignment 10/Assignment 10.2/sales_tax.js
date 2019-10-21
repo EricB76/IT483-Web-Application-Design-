@@ -17,13 +17,15 @@ var clear = function (subtotal, tax_rate, sales_tax, total) {
     document.getElementById("tax_rate").value = "";
     document.getElementById("sales_tax").value = "";
     document.getElementById("total").value = "";
+    document.getElementById('subtotal').focus();
 }    
 
 var calc_on_click = function() {
+    document.getElementById('subtotal').focus();
     var subtotal = parseFloat($("subtotal").value);
     var tax = parseFloat($("tax_rate").value);
-    var error = "Subtotal must be above 0 and the tax rate must be between 0 and 100";
-    if (isNaN(subtotal) || subtotal < 0 || isNaN(tax) || tax < 0 || tax > 100){
+    var error = "Subtotal must be between 0 and 10000 the tax rate must be between 0 and 12";
+    if (isNaN(subtotal) || subtotal < 0 || subtotal > 10000|| isNaN(tax) || tax < 0 || tax > 12){
         alert(error);
     }
     else {
@@ -35,8 +37,8 @@ var calc_on_click = function() {
 
 window.onload = function() {
     $("calculate").onclick = calc_on_click;
+    document.getElementById('subtotal').focus();
     $("clear").onclick = clear;
-
 }
 
 
